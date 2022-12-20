@@ -2,14 +2,17 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   display: flex;
-  align-itens: center;
+  height: 5.5rem;
+  align-items: center;
   justify-content: space-between;
-  border: 1px solid;
+
+  img {
+    height: 40px;
+  }
 
   nav {
     display: flex;
-    align-itens: center;
+    align-items: center;
     gap: 0.5rem;
-    border: 1px solid;
   }
 `;
